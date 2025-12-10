@@ -1,0 +1,38 @@
+p{
+    background-color: #eee;
+    width: 350px;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    position: relative;
+    counter-increment: count;
+}
+
+p::before{
+    content: counter(count);
+    background-color: red;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin: 0;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: -40px;
+    top: 0;
+}
+
+p::after{
+    content: "";
+    background-color: red;
+    height: 40px;
+    width: 5px;
+    position: absolute;
+    right:-5px;
+    top: 0;
+
+}
