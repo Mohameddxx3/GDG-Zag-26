@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    text-shadow:
+     1px 1px red,
+     2px 2px royalblue ,
+     3px 3px purple;
+}
+
+
+
+
+
+.one{
+    text-transform: uppercase;
+}
+
+.two{
+    text-transform: capitalize;
+}
+
+.three{
+    text-transform: lowercase;
+}
+
+
+
+
+div{
+    background-color:#eee;
+    width: 400px;
+    padding: 20px;
+    margin: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 60px;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    background-color:rgb(1, 177, 147);
+    padding: 10px;
+    border-bottom: 5px solid rgb(0, 80, 80) ;
+}

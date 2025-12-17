@@ -1,0 +1,144 @@
+.parent{
+    width: 100%;
+    background-color: rgb(232, 243, 255);
+    min-height: 752px;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.footer , .header{
+    background-color: rgb(6, 139, 211);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 1px;
+}
+
+.one{
+    outline: 1px solid rgb(6, 139, 211);
+    width: 80%;
+    position: absolute;
+    top: 15px;
+    left: 10%;
+    padding: 15px;
+    height: 150px;
+    overflow: auto;
+    color: rgb(6, 139, 211);
+
+}
+
+.one h3{
+    outline: 1px solid rgb(6, 139, 211);
+    color: rgb(0, 81, 125)
+
+}
+
+.two{
+    position: absolute ;
+    top: 200px;
+    padding: 20px;
+}
+
+.two h3{
+    color: rgb(0, 81, 125) ;
+}
+
+ul{
+    list-style-type:square;
+}
+
+.three{
+    background-color:aliceblue ;
+    border: 1px dashed rgb(124, 203, 245);
+    width: 90%;
+    height: 350px;
+    position: absolute;
+    bottom: 15px;
+    left: 5%;
+    float: left;
+}
+
+.three h3{
+    color: rgb(0, 81, 125) ;
+    padding: 0px;
+    margin: 20px;
+    
+}
+
+.placeholder{
+    height: 175px;
+    width: 150px;
+    display: inline-block;
+}
+
+.projects{
+    position: absolute;
+    left:calc( ( 100% - (180px + 20px) * 3 ) / 2 );
+    display: inline-block;
+}
+
+.html{
+    border: 1px solid rgb(6, 139, 211);
+    outline: 1px solid rgb(124, 203, 245) ;
+    outline-offset: 1px;
+    height: 200px;
+    width: 180px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.css{
+    border: 1px solid rgb(6, 139, 211);
+    outline: 1px solid rgb(124, 203, 245) ;
+    outline-offset: 1px;
+    height: 200px;
+    width: 180px;
+    display: inline-block;
+    margin: 0px 10px;
+    
+}
+
+.js{
+    border: 1px solid rgb(6, 139, 211);
+    outline: 1px solid rgb(124, 203, 245) ;
+    outline-offset: 1px;
+    height: 200px;
+    width: 180px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(124, 203, 245);
+    position: relative;
+    top: 10px;
+    left: calc((180px - 50px)/2) ;
+    display: inline-block;
+}
+
+.three .projects h4{
+    text-align: center;
+    margin: 15px;
+    color: rgb(0, 81, 125) ;
+}
+
+.three .projects p{
+    padding: 0 10px;
+}
+
+
+
+
+.button{
+    background-color: rgb(54, 215, 255);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    text-decoration: none;
+    left: 20px;
+    
+}
+
