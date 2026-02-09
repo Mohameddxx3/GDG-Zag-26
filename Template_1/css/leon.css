@@ -176,7 +176,7 @@ header .links ul a:hover{
 /* landing  */
 
 #landing {
-    background-image: url(images/landing.jpg);
+    background-image: url(../images/landing.jpg);
     background-size: cover;
     height: calc(100vh - 64px);
     position: relative;
@@ -485,4 +485,5 @@ footer p span{
     color: var(--main-color);
 
 }
+
 
