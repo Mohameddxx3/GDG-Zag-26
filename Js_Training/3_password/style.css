@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: #002339;
+    color: white;
+}
+.container{
+    height: 1vh;
+    width: 90%;
+    max-width: 700px;
+    margin: 12%;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+h1 span{
+    color: #019f55;
+    border-bottom: 4px solid ;
+    padding-bottom: 7px ;
+}
+
+.password{
+    /* width: 100%; */
+    /* color: #333; */
+    /* align-items: center; */
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 20px;
+    margin: 50px 0 30px;
+    border-radius: 5px;
+}
+.password input{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 24px;
+}
+.password img{
+    width: 30px;
+    cursor: pointer;
+}
+
+button{
+    background-color: #019f55;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+}
+button img{
+    width: 30px;
+    margin-right: 20px;
+}
